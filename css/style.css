@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+* {
+  font-family: "Nanum Gothic", sans-serif;
+  color: #373737;
+  margin: 0;
+  padding: 0; }
+
+.header {
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+  .header__wrap {
+    width: 1012px;
+    height: 119px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .header__logo {
+    width: 232px;
+    height: 48px; }
+  .header__menu {
+    flex-grow: 0;
+    width: 461px;
+    height: 39px; }
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center; }
+  .menu__item {
+    list-style: none; }
+  .menu__link {
+    text-decoration: none;
+    color: #373737;
+    text-align: center;
+    width: 101px;
+    height: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .menu__link:hover {
+      color: #ffffff;
+      background-color: #373737; }
+
+.main {
+  width: 1012px;
+  margin: 116px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; }
+
+.topnews {
+  display: flex;
+  flex-direction: column;
+  position: relative; }
+  .topnews__title {
+    margin-top: 69px;
+    font-size: 61px;
+    font-weight: 300; }
+  .topnews__sub-title {
+    font-size: 41px;
+    font-weight: 300; }
+  .topnews__link {
+    width: 204px;
+    height: 39px;
+    margin-top: 29px;
+    background-image: url("../../img/video_review.webp");
+    background-position: center; }
+  .topnews__image {
+    position: absolute;
+    right: -170px; }
+
+.news {
+  width: 1018px;
+  margin-top: 180px;
+  display: flex; }
+  .news__content {
+    width: 680px; }
+  .news__widget {
+    width: 319px; }
+  .news__newsblock {
+    margin-top: 42px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+  .news__card {
+    margin-bottom: 51px;
+    width: 214px;
+    height: 210px; }
+  .news__title {
+    font-size: 26px;
+    font-weight: 300; }
+  .news__date {
+    font-size: 12px;
+    font-weight: 300;
+    font-style: italic;
+    margin: 5px 0; }
+  .news__text {
+    font-size: 14px;
+    font-weight: 300; }
+
+.lastnew {
+  display: flex;
+  justify-content: space-around; }
+  .lastnew__content {
+    width: 318px; }
+  .lastnew__title {
+    font-size: 30px; }
+  .lastnew__text {
+    margin-top: 17px;
+    font-size: 14px; }
+  .lastnew__image {
+    width: 308px;
+    height: 242px; }
+
+.widget {
+  display: flex;
+  flex-direction: column; }
+  .widget__card {
+    width: 319px;
+    margin-bottom: 25px; }
+
+.mailing {
+  height: 265px;
+  background-color: #373737;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .mailing__title {
+    color: #ffffff;
+    font-size: 27px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center; }
+  .mailing__text {
+    width: 251px;
+    margin: 17px auto 15px auto;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center; }
+  .mailing__form {
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; }
+  .mailing__input {
+    width: 257px;
+    height: 26px;
+    padding-left: 3px; }
+  .mailing__button {
+    width: 179px;
+    height: 33px;
+    background-color: #bb4465;
+    color: #ffffff;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 7px; }
+
+.footer {
+  width: 100%;
+  height: 91px;
+  background-color: #373737;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .footer__copyright {
+    color: #ffffff;
+    font-size: 16px; }
+  .footer__socialblock {
+    position: absolute;
+    width: 537px;
+    height: 100%;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+.social {
+  width: 112px;
+  height: 27px;
+  display: flex;
+  justify-content: space-between; }
